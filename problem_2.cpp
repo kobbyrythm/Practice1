@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 int FindMax(int a[],int n)
 	int i, max;
 	max = a[0];
@@ -26,19 +25,19 @@ int main()
 {
 	int i, array[50], size, max, min;
 
-	cout<<"Input number of elements in array\n";
-	cin>>size;
+	std::cout<<"Input number of elements in array\n";
+	std::cin>>size;
 
-	cout<<"Enter "<< size << " integers\n";
+	std::cout<<"Enter "<< size << " integers\n";
 	for(i=0;i<size;i++)
-	cin>>array[i];
+	std::cin>>array[i];
 
 	max = FindMax(array,size);
 	min = FindMin(array,size);
 
 	
-	cout<<"Maximum element in the array is:" << max << "\n";
-	cout<<"Minimum element in the array is:" << min << "\n";
+	std::cout<<"Maximum element in the array is:" << max << "\n";
+	std::cout<<"Minimum element in the array is:" << min << "\n";
 
 return 0;
 }
