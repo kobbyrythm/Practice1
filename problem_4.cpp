@@ -1,19 +1,18 @@
 #include <iostream>
-using namespace std;
 
 int main()
 {
     int n;
     int range;
 
-    cout << "Enter an integer: ";
-    cin >> n;
+    std::cout << "Enter an integer: ";
+    std::cin >> n;
 
-    cout << "Enter range: ";
-    cin >> range;
+    std::cout << "Enter range: ";
+    std::cin >> range;
 
     for (int i = 1; i <= range; ++i) {
-        cout << n << " * " << i << " = " << n * i << endl;
+        std::cout << n << " * " << i << " = " << n * i << std::endl;
     }
 
     return 0;
