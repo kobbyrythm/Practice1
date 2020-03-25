@@ -1,14 +1,13 @@
 #include<iostream>
-using namespace std;
 float area(int);
 float circum(int);
 int main()
 {
         int r;
-        cout<<"\n Enter Radius of Circle: ";
-        cin>>r;
-        cout<<"\n Area of Circle : "<<area(r);
-        cout<<"\n Circumference of Circle : "<<circum(r);
+        std::cout<<"\n Enter Radius of Circle: ";
+        std::cin>>r;
+        std::cout<<"\n Area of Circle : "<<area(r);
+        std::cout<<"\n Circumference of Circle : "<<circum(r);
 }
 float area(int r)
 {
